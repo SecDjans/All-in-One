@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+
+html, body{
+    height: auto;
+    width: 100%;
+    margin: 0;
+    background-color:#f7f1e3;
+    color: black;
+    font-family: 'EB Garamond', serif;
+}
+
+
+                                /*HEADER*/
+                                
+* {
+  outline: 0;
+}
+                               
+button{
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 0;
+    height: 40px;
+    width: 110px;
+    position: absolute;
+    right: 10px;
+    border-radius: 10px;
+    background-color:#112F41;
+    color: #fff;
+}
+button:hover{
+    height: 50px;
+    width: 120px;
+    transition: 0.4s;
+}
+.dark{
+    background-color: #112F41;
+    color: #ffffff;
+}
+.dark nav{  
+    border: 1px rgb(255, 255, 255) solid;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+} 
+.dark button{
+    background-color: #f7f1e3;
+    color: black;
+}
+.dark button a{
+    border-radius: 10px;
+    height: 50px;
+    width: 120px;
+    background-color: #f7f1e3;
+    border: #fff;
+    color: black;
+}
+.dark a:link{
+    color: rgb(255, 255, 255);
+}
+
+.dark a:visited{
+    color: rgb(255, 255, 255);
+}
+h1{
+    font-size: 6rem;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    margin: 0;
+    text-transform:inherit;
+}
+header p{
+    text-align: center;
+    font-size: 1.3rem
+}
+nav{  
+    border: 1px black solid;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.5rem;
+} 
+nav a{
+    margin: 15px;
+    
+}
+                                /*BODY*/
+
+
+#bitcoinDominance{
+    font-size: 1.3rem;
+}
+#totalCrypto{
+    font-size: 1.3rem;
+}
+
+#Div1, #Div2, #Div3, #Div4, #Div5, #Div6, #Div7, #Div8, #Div9, #Div10, #Div11{
+    text-align: center;
+}
+#Div2, h2{
+    margin-bottom: 10;
+}
+#Div9 h2{
+    margin-bottom:0;
+}
+#Div10 h2{
+    margin-top:0;
+}
+
+a:link{
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+#autres{
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+#bitcoinPrice{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+#bitcoinPrice p{
+    text-align: center;
+    margin: 0;
+}
+#bitcoinPrice img{
+    height: 3rem;
+}
+
+
+/* Footer */
+
+footer p{
+    text-align: right;
+    font-size:  20px;
+    margin: 15px 10px 0 0;
+}
