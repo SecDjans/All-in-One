@@ -95,10 +95,6 @@ header nav a {
 }
 
 /*BODY*/
-#Div5 {
-  align-items: baseline;
-}
-
 #bitcoinDominance, #totalCrypto {
   font-size: 1.3rem;
 }
