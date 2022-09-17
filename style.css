@@ -13,6 +13,28 @@ html, body {
 * {
   outline: 0;
   text-align: center;
+  padding: 0;
+}
+
+header h1 {
+  font-size: 6rem;
+  font-family: "EB Garamond", serif;
+  text-align: center;
+  margin: 0;
+  text-transform: inherit;
+}
+header header p {
+  text-align: center;
+  font-size: 1.3rem;
+}
+header nav {
+  border: 1px black solid;
+  text-align: center;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+header nav a {
+  margin: 15px;
 }
 
 button {
@@ -67,34 +89,6 @@ button:hover {
   color: white;
 }
 
-h1 {
-  font-size: 6rem;
-  font-family: "EB Garamond", serif;
-  text-align: center;
-  margin: 0;
-  text-transform: inherit;
-}
-
-header #headerDiv {
-  height: 15vh;
-  width: 100%;
-  background-color: green;
-}
-header header p {
-  text-align: center;
-  font-size: 1.3rem;
-}
-header nav {
-  border: 1px black solid;
-  text-align: center;
-  padding: 10px;
-  font-size: 1.5rem;
-}
-header nav a {
-  margin: 15px;
-}
-
-/*BODY*/
 #bitcoinDominance, #totalCrypto {
   font-size: 1.3rem;
 }

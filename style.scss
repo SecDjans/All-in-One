@@ -1,7 +1,7 @@
-$color-white: white;
-$color-black: black;
-$color-darkMode:#000f19;
+@import "/Sass/Utils/variables/Variables";
+
                                 /*GENERAL*/
+                                
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 html, body{
@@ -15,13 +15,38 @@ html, body{
 
 
 
-                                /*HEADER*/
-                                
+/*HEADER*/
+
 * {
-  outline: 0;
-  text-align: center;
+    outline: 0;
+    text-align: center;
+    padding: 0;
 }
-                               
+
+header{
+    h1{
+        font-size: 6rem;
+        font-family: 'EB Garamond', serif;
+        text-align: center;
+        margin: 0;
+        text-transform:inherit;
+    }
+    header p{
+        text-align: center;
+        font-size: 1.3rem
+    }
+    nav{  
+        border: 1px $color-black solid;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.5rem;
+    } 
+    nav a{
+        margin: 15px;
+        
+    } 
+}
+
 button{
     margin-top: 10px;
     cursor: pointer;
@@ -40,6 +65,7 @@ button{
     }
 }
 
+        // Class thème sombre Javascript //
 .dark{
     background-color: $color-darkMode;
     color: $color-white;
@@ -72,35 +98,8 @@ button{
 .dark a:visited{
     color: $color-white;
 }
-h1{
-    font-size: 6rem;
-    font-family: 'EB Garamond', serif;
-    text-align: center;
-    margin: 0;
-    text-transform:inherit;
-}
-header{
-    #headerDiv{
-        height: 15vh;
-        width: 100%;
-        background-color: green;
-    }
-    header p{
-        text-align: center;
-        font-size: 1.3rem
-    }
-    nav{  
-        border: 1px $color-black solid;
-        text-align: center;
-        padding: 10px;
-        font-size: 1.5rem;
-    } 
-    nav a{
-        margin: 15px;
-        
-    } 
-}
-                                /*BODY*/
+                                //*BODY*//
+
 #bitcoinDominance, #totalCrypto{
     font-size: 1.3rem;
 }
