@@ -1,3 +1,7 @@
+$color-white: white;
+$color-black: black;
+$color-darkMode:#000f19;
+                                /*GENERAL*/
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
 html, body{
@@ -10,10 +14,12 @@ html, body{
 }
 
 
+
                                 /*HEADER*/
                                 
 * {
   outline: 0;
+  text-align: center;
 }
                                
 button{
@@ -25,42 +31,46 @@ button{
     position: absolute;
     right: 10px;
     border-radius: 10px;
-    background-color:#112F41;
-    color: #fff;
+    background-color:$color-darkMode;
+    color: $color-white;
+    &:hover{
+        height: 50px;
+        width: 120px;
+        transition: 0.4s;  
+    }
 }
-button:hover{
-    height: 50px;
-    width: 120px;
-    transition: 0.4s;
-}
+
 .dark{
-    background-color: #112F41;
-    color: #ffffff;
-}
-.dark nav{  
-    border: 1px rgb(255, 255, 255) solid;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5rem;
-} 
-.dark button{
-    background-color: #f7f1e3;
-    color: black;
-}
-.dark button a{
-    border-radius: 10px;
-    height: 50px;
-    width: 120px;
-    background-color: #f7f1e3;
-    border: #fff;
-    color: black;
+    background-color: $color-darkMode;
+    color: $color-white;
+    footer{
+        border-top: solid 0.2px $color-white;
+    }
+    nav{  
+        border: 1px $color-white solid;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.5rem;
+    } 
+    button{
+        background-color: #f7f1e3;
+        color: $color-black;
+    }
+    button a{
+        border-radius: 10px;
+        height: 50px;
+        width: 120px;
+        background-color: #f7f1e3;
+        border: $color-white;
+        color: $color-black;
+    }
 }
 .dark a:link{
-    color: rgb(255, 255, 255);
+    color: $color-white;
 }
 
 .dark a:visited{
-    color: rgb(255, 255, 255);
+    color: $color-white;
 }
 h1{
     font-size: 6rem;
@@ -69,49 +79,47 @@ h1{
     margin: 0;
     text-transform:inherit;
 }
-header p{
-    text-align: center;
-    font-size: 1.3rem
-}
-nav{  
-    border: 1px black solid;
-    text-align: center;
-    padding: 10px;
-    font-size: 1.5rem;
-} 
-nav a{
-    margin: 15px;
-    
+header{
+    #headerDiv{
+        height: 15vh;
+        width: 100%;
+        background-color: green;
+    }
+    header p{
+        text-align: center;
+        font-size: 1.3rem
+    }
+    nav{  
+        border: 1px $color-black solid;
+        text-align: center;
+        padding: 10px;
+        font-size: 1.5rem;
+    } 
+    nav a{
+        margin: 15px;
+        
+    } 
 }
                                 /*BODY*/
-
-
-#bitcoinDominance{
+#Div5{
+    align-items: baseline;
+}
+#bitcoinDominance, #totalCrypto{
     font-size: 1.3rem;
 }
-#totalCrypto{
-    font-size: 1.3rem;
-}
 
-#Div1, #Div2, #Div3, #Div4, #Div5, #Div6, #Div7, #Div8, #Div9, #Div10, #Div11{
-    text-align: center;
-}
-#Div2, h2{
-    margin-bottom: 10;
-}
-#Div9 h2{
-    margin-bottom:0;
-}
-#Div10 h2{
-    margin-top:0;
+#coinMarket{
+    background-color: white;
+    padding-top: 1.9rem;
+    border-radius: 10px;
 }
 
 a:link{
-    color: black;
+    color: $color-black;
 }
 
 a:visited{
-    color: black;
+    color: $color-black;
 }
 
 #autres{
@@ -125,20 +133,28 @@ a:visited{
     display: grid;
     justify-content: center;
     font-size: 1.5rem;
-}
-#bitcoinPrice p{
-    text-align: center;
-    margin: 0;
-}
-#bitcoinPrice img{
-    height: 3rem;
+    p{
+        text-align: center;
+        margin: 0;
+    }
+    img{
+        height: 3rem;
+    }
 }
 
 
 /* Footer */
 
-footer p{
-    text-align: right;
-    font-size:  20px;
-    margin: 15px 10px 0 0;
+footer{
+    display: flex;
+    margin: 30px 30px 0px 30px;
+    justify-content: space-around;
+    align-items: center;
+    border-top: solid 0.2px $color-black;
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.2rem;
+    }
 }
