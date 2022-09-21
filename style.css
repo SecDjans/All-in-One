@@ -141,4 +141,16 @@ footer h3 {
 }
 footer p {
   font-size: 1.2rem;
+}
+
+#divFooter {
+  display: flex;
+  align-items: center;
+}
+#divFooter img {
+  margin: 5px;
+  height: 3rem;
+}
+#divFooter #linkedinLogo {
+  height: 2.8rem;
 }/*# sourceMappingURL=style.css.map */

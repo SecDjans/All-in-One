@@ -1,4 +1,4 @@
-@import "/Sass/Utils/variables/Variables";
+@import "./Sass/Utils/variables/_Variables";
 
                                 /*GENERAL*/
                                 
@@ -152,5 +152,16 @@ footer{
     }
     p{
         font-size: 1.2rem;
+    } 
+}
+#divFooter{
+    display: flex;
+    align-items: center;
+    img{
+        margin: 5px;
+        height: 3rem;
+    }
+    #linkedinLogo{
+        height: 2.8rem;
     }
 }
