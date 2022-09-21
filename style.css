@@ -64,7 +64,7 @@ button:hover {
   border-top: solid 0.2px white;
 }
 .dark nav {
-  border: 1px white solid;
+  border-bottom: solid 0.2px white;
   text-align: center;
   padding: 10px;
   font-size: 1.5rem;
