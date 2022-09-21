@@ -28,7 +28,8 @@ header header p {
   font-size: 1.3rem;
 }
 header nav {
-  border: 1px black solid;
+  border-bottom: solid 0.2px black;
+  margin: 0px 30px 0px 30px;
   text-align: center;
   padding: 10px;
   font-size: 1.5rem;
@@ -42,16 +43,16 @@ button {
   cursor: pointer;
   padding: 0;
   height: 40px;
-  width: 110px;
+  width: 50px;
   position: absolute;
-  right: 10px;
+  left: 10px;
   border-radius: 10px;
   background-color: #000f19;
   color: white;
 }
 button:hover {
-  height: 50px;
-  width: 120px;
+  height: 45px;
+  width: 70px;
   transition: 0.4s;
 }
 
