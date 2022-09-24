@@ -1,7 +1,9 @@
     // MODE SOMBRE ET CLAIR //
 
-let button = document.querySelector('#mode');
-let span   = document.querySelector('span');
+let button    = document.querySelector('#mode');
+let span      = document.querySelector('span');
+let github    = document.querySelector('#GitHubLogo');   
+let linkedin  = document.querySelector('#LinkedinLogo'); 
 
 if(localStorage.getItem('theme')){
   if(localStorage.getItem('theme') == 'sombre') {
@@ -25,6 +27,7 @@ function modeSombre() {
   span.textContent = 'LIGHT';
   localStorage.setItem('theme', 'sombre');
 }
+
 
 // API Bitcoin and altcoins price //
 

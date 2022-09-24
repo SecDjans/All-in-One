@@ -81,6 +81,18 @@ button:hover {
   border: white;
   color: black;
 }
+.dark .darkGithub, .dark #divFooter #GitHubLogo, #divFooter .dark #GitHubLogo {
+  height: 3.8rem;
+  width: 3.8rem;
+  background-size: cover;
+  background-image: url(./Image/githublogo.svg);
+}
+.dark .darkLinkedin, .dark #divFooter #LinkedinLogo, #divFooter .dark #LinkedinLogo {
+  height: 3rem;
+  width: 3rem;
+  background-size: cover;
+  background-image: url(./Image/linkedinlogo.svg);
+}
 
 .dark a:link {
   color: white;
@@ -148,10 +160,16 @@ footer p {
   display: flex;
   align-items: center;
 }
-#divFooter img {
-  margin: 5px;
+#divFooter #GitHubLogo {
   height: 3rem;
+  width: 3rem;
+  background-size: cover;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/3291/3291695.png);
 }
-#divFooter #linkedinLogo {
-  height: 2.8rem;
+#divFooter #LinkedinLogo {
+  margin: 10px;
+  height: 3rem;
+  width: 3rem;
+  background-size: cover;
+  background-image: url(https://cdn-icons-png.flaticon.com/512/61/61109.png);
 }/*# sourceMappingURL=style.css.map */

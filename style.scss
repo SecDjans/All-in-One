@@ -91,6 +91,18 @@ button{
         border: $color-white;
         color: $color-black;
     }
+    .darkGithub{
+        height: 3.8rem;
+        width: 3.8rem;
+        background-size: cover;
+        background-image: url(./Image/githublogo.svg);
+    }   
+    .darkLinkedin{
+        height: 3rem;
+        width: 3rem;
+        background-size: cover;
+        background-image: url(./Image/linkedinlogo.svg);  
+    }
 }
 .dark a:link{
     color: $color-white;
@@ -155,14 +167,24 @@ footer{
         font-size: 1.2rem;
     } 
 }
+
 #divFooter{
     display: flex;
     align-items: center;
-    img{
-        margin: 5px;
+    #GitHubLogo{
+        @extend .darkGithub;
         height: 3rem;
+        width: 3rem;
+        background-size: cover;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/3291/3291695.png);
     }
-    #linkedinLogo{
-        height: 2.8rem;
+    #LinkedinLogo{
+        @extend .darkLinkedin;
+        margin: 10px;
+        height: 3rem;
+        width: 3rem;
+        background-size: cover;
+        background-image: url(https://cdn-icons-png.flaticon.com/512/61/61109.png);
+        
     }
 }
